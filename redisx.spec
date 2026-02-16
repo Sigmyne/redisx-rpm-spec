@@ -1,7 +1,7 @@
-%global upstream_version        1.0.2
+%global upstream_version        1.0.3
 
 Name:                   redisx
-Version:                1.0.2
+Version:                1.0.3
 Release:                %autorelease
 Summary:                An independent C/C++ Redis/Valkey client library and toolkit
 License:                Unlicense
