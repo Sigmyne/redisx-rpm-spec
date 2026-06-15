@@ -1,7 +1,7 @@
-%global upstream_version        1.0.4-rc4
+%global upstream_version        1.0.4
 
 Name:              redisx
-Version:           1.0.4~rc4
+Version:           1.0.4
 Release:           %autorelease
 Summary:           An independent C/C++ Redis/Valkey client library and toolkit
 License:           Unlicense
@@ -12,7 +12,7 @@ BuildRequires:     gcc
 BuildRequires:     cmake
 BuildRequires:     libbsd-devel
 BuildRequires:     libomp-devel
-BuildRequires:     libxchange-devel >= 1.0.1
+BuildRequires:     libxchange-devel >= 1.2.0
 BuildRequires:     openssl-devel
 BuildRequires:     popt-devel
 BuildRequires:     readline-devel
@@ -31,7 +31,7 @@ Summary:           C development files for the RedisX C/C++ library
 Requires:          %{name}%{_isa} = %{version}-%{release}
 Requires:          libbsd-devel%{_isa}
 Requires:          libomp-devel%{_isa}
-Requires:          libxchange-devel%{_isa} >= 1.0.1
+Requires:          libxchange-devel%{_isa} >= 1.2.0
 Requires:          openssl-devel%{_isa}
 Requires:          popt-devel%{_isa}
 Requires:          readline-devel%{_isa}
